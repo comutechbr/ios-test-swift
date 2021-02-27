@@ -69,7 +69,7 @@ So I can easily access it later
 - If the user favorites a repository, all screens must be updated to show this repository as favorite.
 - The favorite repositories list must be persisted so the user can access it after reloading the app.
 
-### Solution requirements
+## Solution requirements
 
 - Use Xcode 12.4, iOS 14.4 and Swift 5.4.
 - You can use third-party libraries, but only 3. Feel free to use CocoaPods, Carthage or Swift Package Manager.
