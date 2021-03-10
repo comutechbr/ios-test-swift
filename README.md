@@ -40,40 +40,11 @@ The detail screen should display the following content:
 - List of repository's languages.
 - List of last 5 commits with author's name, commit's message and date.
 
-## BONUS User Stories
-
-Implement the Bonus User Stories if you are applying for a Senior iOS Engineer role. 
-
-### US03 - User Search Autocomplete
-
-As an user<br>
-I want to see an autocomplete list as I type a GitHub user name<br>
-So I can easily find the user I want to pick
-
-#### Acceptance criteria
-
-- Implement an autocomplete list as the user types a GitHub user name on the List screen.
-- The autocomplete list element should display only the GitHub user's name.
-- By tapping an autocomplete list element, the List screen loads the user's repository list.
-
-### US04 - Favorite Repositories
-
-As an user<br>
-I want to favorite a repository<br>
-So I can easily access it later
-
-#### Acceptance criteria
-
-- Users must be able to favorite a repository both from the List and Detail screens.
-- The app must have a section to list only favorited repositories. 
-- If the user favorites a repository, all screens must be updated to show this repository as favorite. This must also work if a repository is removed from favorite list.
-- The favorite repositories list must be persisted so the user can access it after reloading the app.
-
 ## Solution requirements
 
 - Use Xcode 12.4, iOS 14.4 and Swift 5.4.
 - You can use third-party libraries, but only 2. Feel free to use any dependency manager you want. This requirement does not apply to Tests targets.
-- Write unit tests and any other test you may find helpful or important to have.
+- Write any test you may find helpful or important to have.
 - The app is expected to work only for iPhone in portrait mode.
 - Keep performance and corner cases in mind. Beware of the retain cycles!
 - Use your experience and creativity to develop a kickass UI for your app!
